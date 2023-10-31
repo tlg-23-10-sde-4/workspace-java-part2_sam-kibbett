@@ -1,5 +1,7 @@
 package com.entertainment;
 
+import java.util.Objects;
+
 public class Television {
     private String brand;
     private int volume;
@@ -41,6 +43,29 @@ public class Television {
 
     public void setVolume(int volume) {
         this.volume = volume;
+    }
+
+    @Override
+    public int hashCode() {
+    // This is a poorly written hash function cause it creates hash collisions.
+        return Objects.hash(getBrand(), getVolume());
+    }
+
+    @Override
+    public boolean equals (Object obj) {
+        boolean result = false;
+
+        // proceed only if 'obj' is really referencing a television object
+        if (obj instanceof Television) {
+            // safely downcast 'obj' tp more specific reference Television
+            Television other = (Television) obj;
+
+            // do the checks: business equality is defined by brand, volume being the same
+            result = Objects.equals(this.getBrand(), other.getBrand()) &&
+                    this.getVolume() == other.getVolume();
+        }
+
+        return result;
     }
 
     @Override
