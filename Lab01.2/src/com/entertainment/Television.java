@@ -2,7 +2,7 @@ package com.entertainment;
 
 import java.util.Objects;
 
-public class Television {
+public class Television<String> {
     private String brand;
     private int volume;
 
