@@ -12,15 +12,29 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
+
+/*
+at runtime this will be ShoppingCart<MusicItem>
+or ShoppingCart<MediaPlayer>
+or ShoppingCart<Product>
+ */
 public class ShoppingCart<T> {
-  // storage for the cart's contents
-  private Collection<T> items = new ArrayList<T>();  // diamond not used here just to emphasize the T
-  
-  public void addItem(T item) {
-    items.add(item);
-  }
-  
-  public void removeItem(T item) {
-    items.remove(item);
-  }
+    // storage for the cart's contents
+    private Collection<T> items = new ArrayList<T>();  // diamond not used here just to emphasize the T
+
+    public Collection<T> allItems() {
+        return Collections.unmodifiableCollection(items);
+    }
+
+    public int size() {
+        return items.size();
+    }
+
+    public void addItem(T item) {
+        items.add(item);
+    }
+
+    public void removeItem(T item) {
+        items.remove(item);
+    }
 }

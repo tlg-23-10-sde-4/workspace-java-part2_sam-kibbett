@@ -69,11 +69,11 @@ public class Television<String> {
     }
 
     @Override
-    public String toString() {
+    public java.lang.String toString() {
         return "Television{" +
-                "brand='" + getBrand() + '\'' +
-                ", volume=" + getVolume() +
-                ", Channel=" + getCurrentChannel() +
+                "brand=" + brand +
+                ", volume=" + volume +
+                ", tuner=" + tuner +
                 '}';
     }
 }
