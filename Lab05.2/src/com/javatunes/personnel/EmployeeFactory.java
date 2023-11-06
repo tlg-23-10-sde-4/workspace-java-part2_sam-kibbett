@@ -25,7 +25,20 @@ public class EmployeeFactory {
   throws IllegalArgumentException {
     // return value
     Employee emp = null;
-    
+
+    // read the 'indicator' out of the Map
+    String type = inputMap.get("type");
+
+    if ("SE".equals(type)) {
+      // todo
+    }
+
+    else if ("HE".equals(type)) {
+
+    }
+    else {
+      throw new IllegalArgumentException("Invalid type: " + type + ". Must be SE or HE");
+    }
     return emp;
   }
 }
