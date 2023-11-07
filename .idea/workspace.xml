@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19872aea-168a-4f76-b7c0-dfa32a0f4c3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab05.3/Lab05.3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/TaxCalculatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/product/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/product/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab05.3/test/com/javatunes/product/OrderTaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/test/com/javatunes/product/OrderTaxTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javatunes.billing" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\TLG_SDE\StudentWork\IntroJava\workspace\DuckRace" />
       <recent name="C:\TLG_SDE\StudentWork\IntroJava\workspace\DuckRace\conf" />
@@ -195,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699309919859</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Iteration 2: Board (studentIdMap, racerMap)">
+      <created>1699379361711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699379361711</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,6 +216,7 @@
     <MESSAGE value="Lab04.1" />
     <MESSAGE value="Lab05.2 singleton" />
     <MESSAGE value="Lab05.2 Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab05.2 Test" />
+    <MESSAGE value="Iteration 2: Board (studentIdMap, racerMap)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iteration 2: Board (studentIdMap, racerMap)" />
   </component>
 </project>
