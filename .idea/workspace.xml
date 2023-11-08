@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19872aea-168a-4f76-b7c0-dfa32a0f4c3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/TaxCalculatorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/product/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/product/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.3/test/com/javatunes/product/OrderTaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/test/com/javatunes/product/OrderTaxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab06.1/Lab06.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniLab06.1/MiniLab06.1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/TaxCalculatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/TaxCalculatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab06.1/src/com/entertainment/DisplayType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab06.1/src/com/entertainment/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab06.1/src/com/entertainment/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab06.1/src/com/entertainment/TelevisionBrandChannelComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab06.1/src/com/entertainment/TelevisionChannelComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab06.1/src/com/entertainment/Tuner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab06.1/src/com/entertainment/client/TelevisionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab06.1/src/com/entertainment/client/TelevisionClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniLab06.1/src/demo/innerclass/ui/LoginApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniLab06.1/src/demo/innerclass/ui/LoginApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniLab06.1/src/demo/innerclass/ui/LoginAppListener.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +59,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IntroJava/workspace/DuckRace" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MiniLab06.1" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -89,6 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.innerclass.ui.LoginApp" />
+      <module name="MiniLab06.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.innerclass.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TaxClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -119,35 +143,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab04.2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javatunes.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javatunes.product" />
-      <option name="MAIN_CLASS_NAME" value="com.javatunes.product.ShoppingCartTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.BoardTest" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.LoginApp" />
       <item itemvalue="Application.TaxClient" />
       <item itemvalue="JUnit.IRSEnumTest" />
-      <item itemvalue="JUnit.ShoppingCartTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BoardTest" />
+        <item itemvalue="Application.LoginApp" />
         <item itemvalue="Application.TaxClient" />
         <item itemvalue="JUnit.IRSEnumTest" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="JUnit.ShoppingCartTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699379361711</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lab05.3 (Order-&gt;TaxCalculator Strategy)">
+      <created>1699392495080</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699392495080</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,6 +233,7 @@
     <MESSAGE value="Lab05.2 singleton" />
     <MESSAGE value="Lab05.2 Test" />
     <MESSAGE value="Iteration 2: Board (studentIdMap, racerMap)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iteration 2: Board (studentIdMap, racerMap)" />
+    <MESSAGE value="Lab05.3 (Order-&gt;TaxCalculator Strategy)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab05.3 (Order-&gt;TaxCalculator Strategy)" />
   </component>
 </project>

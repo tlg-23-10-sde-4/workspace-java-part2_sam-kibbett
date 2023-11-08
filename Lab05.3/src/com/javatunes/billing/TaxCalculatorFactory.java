@@ -13,7 +13,7 @@ public class TaxCalculatorFactory {
     * however, if my cache already contains it, then I just fetch it from the cache and return it - no need to create another one.
     *
     * hint: you could use a simple Map<Location,TaxCalculator> for the cache.
-     */
+     *
     public static TaxCalculator getTaxCalculator(Location location) {
         TaxCalculator calc = null;
 
@@ -29,4 +29,6 @@ public class TaxCalculatorFactory {
         }
         return calc;
     }
+
+     */
 }
